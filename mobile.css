@@ -67,6 +67,7 @@
     .descriptionAbout {
         display: block;
         padding: 25px 22px;
+        text-align: left;
     }
     /*---Skills---*/
     #my_skills {
