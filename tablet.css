@@ -57,8 +57,9 @@
         margin: auto
     }
     .titleAbout {
-        width: 30px;
+        width: 35px;
         justify-content: flex-start;
+        padding: 0px 7px;
     }
     .photoAbout {
         width: 120px;
@@ -67,6 +68,7 @@
     }
     .descriptionAbout {
         display: block;
+        padding: 25px 30px;
     }
     /*---Skills---*/
     #my_skills {
@@ -88,8 +90,9 @@
         margin-bottom: 21px;
     }
     .titleSkills {
-        width: 30px;
+        width: 35px;
         justify-content: flex-end;
+        padding: 0px 7px;
     }
     .illustration {
         width: 100px;
