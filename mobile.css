@@ -101,6 +101,8 @@
     /*Contacts*/
     .contacts {
         font-size: 18px;
+        padding-left: 6px;
+        padding-right: 6px;
     }
     .contact_me {
         font-size: 30px;
