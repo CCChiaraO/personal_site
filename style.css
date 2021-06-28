@@ -9,7 +9,7 @@ h1 {
     color: #ffffff;
     text-align: center;
     padding-top: 120px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     font-weight: bold;
 }
 
@@ -22,7 +22,7 @@ h2 {
 h3 {
     font-size: 30px;
     font-weight: normal;
-    text-align: center;
+    text-align: left;
 }
 
 h4 {
@@ -31,7 +31,7 @@ h4 {
     width: 100%;
     font-weight: lighter;
     font-size: 20px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -39,7 +39,7 @@ h5 {
     font-weight: normal;
     font-size: 20px;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -64,7 +64,7 @@ li {
 
 hr {
     width: 700px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 
@@ -81,7 +81,7 @@ hr {
 
 .container {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border: 0px;
     padding: 5px;
     width: 700px;
@@ -107,6 +107,7 @@ hr {
     width: 90%;
     align-content: center;
     margin: 0% 5%;
+    padding-bottom: 35px;
 }
 
 
