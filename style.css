@@ -64,7 +64,9 @@ li {
 
 hr {
     width: 700px;
-    margin: 20px auto;
+    margin: 20px 250px auto;
+    border: 0px;
+    color: inherit;
 }
 
 
@@ -142,6 +144,19 @@ hr {
     height: 180px;
     justify-content: flex-end;
 }
+
+.coding {
+        display: block;
+        margin: auto;
+        padding: 8px 10px;
+    }
+    .adobe {
+        display: block;
+        margin: auto;
+        padding: 8px 10px;
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
 
 .titleSkills {
     width: 40px;
