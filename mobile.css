@@ -13,6 +13,7 @@
     }
     h4 {
         font-size: 17px;
+        padding: 0px 15px;
     }
     h5 {
         font-size: 15px;
@@ -29,6 +30,7 @@
     .container {
         width: 100%;
         margin: auto;
+        padding: 20px 15px;
     }
     /*Header*/
     #ABOUT,
@@ -64,10 +66,9 @@
         display: block;
         padding: 0px 10px;
     }
-    .descriptionAbout {
-        display: block;
-        padding: 25px 22px;
-        text-align: left;
+    #description {
+        font-size: 17px;
+        padding: 10px 15px 0px;
     }
     /*---Skills---*/
     #my_skills {
@@ -80,13 +81,12 @@
         display: block;
         margin: auto;
         padding: 5px 8px;
+        margin: 0px;
     }
     .adobe {
         display: block;
         margin: auto;
         padding: 5px 8px;
-        margin-top: 27px;
-        margin-bottom: 27px;
     }
     .titleSkills {
         width: 25px;
@@ -101,8 +101,7 @@
     /*Contacts*/
     .contacts {
         font-size: 18px;
-        padding-left: 6px;
-        padding-right: 6px;
+        padding: 20px 15px;
     }
     .contact_me {
         font-size: 30px;
@@ -113,5 +112,6 @@
     /*Footer*/
     .footer {
         font-size: 13px;
+        padding: 20px 15px 7px;
     }
 }

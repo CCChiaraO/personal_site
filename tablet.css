@@ -66,10 +66,8 @@
         display: block;
         padding: 0px 10px;
     }
-    .descriptionAbout {
-        display: block;
-        padding: 25px 30px;
-        text-align: left;
+    #description {
+        font-size: 18px;
     }
     /*---Skills---*/
     #my_skills {

@@ -127,12 +127,14 @@ hr {
     display: flex;
     justify-content: flex-start;
     padding: 0px 10px;
+    margin: 0px 20px;
 }
 
-.descriptionAbout {
-    display: flex;
-    justify-content: flex-start;
+#description {
+    display: block;
     text-align: justify;
+    font-size: 20px;
+    padding: 20px 0px 0px;
 }
 
 
@@ -165,10 +167,6 @@ hr {
     margin: auto;
 }
 
-#in {
-    color: #FFFFFF;
-}
-
 #contact_me {
     font-size: 30px;
     font-weight: normal;
@@ -179,6 +177,15 @@ hr {
 #paper_plane {
     margin-left: 14px;
     margin-right: 20px;
+    color: #FFFFFF;
+}
+
+#in {
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+#git {
     color: #FFFFFF;
 }
 
