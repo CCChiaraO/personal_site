@@ -1,8 +1,8 @@
 @media not all and (min-resolution:.001dpcm) {
     @supports (-webkit-appearance: none) {
-        
-     
-        
+        .container {
+            line-height: 500px;
+        }
         .titleAbout {
             width: 40px;
         }

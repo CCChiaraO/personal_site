@@ -1,6 +1,6 @@
 @media all and (min--moz-device-pixel-ratio:0) {
     .photoAbout {
-        width: 350px;
+        width: 200px;
     }
 }
 
@@ -14,7 +14,7 @@
 
 @media all and (min--moz-device-pixel-ratio:0) and (max-width: 379px) {
     .photoAbout {
-        width: 200px;
+        width: 140px;
     }
     .coding {
         margin-right: 20px;
@@ -26,13 +26,13 @@
 
 @media all and (min--moz-device-pixel-ratio:0) and (min-width: 380px) and (max-width: 600px) {
     .photoAbout {
-        width: 200px;
+        width: 170px;
     }
 }
 
 @media all and (min--moz-device-pixel-ratio:0) and (min-width: 601px) and (max-width: 767px) {
     .photoAbout {
-        width: 250px;
+        width: 180px;
     }
     .coding,
     .adobe {
@@ -42,7 +42,7 @@
 
 @media all and (min--moz-device-pixel-ratio:0) and (min-width: 768px) and (max-width: 900px) {
     .photoAbout {
-        width: 250px;
+        width: 200px;
     }
     .coding,
     .adobe {
