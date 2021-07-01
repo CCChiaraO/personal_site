@@ -1,12 +1,67 @@
+/*
+    Define here the CSS styles applied only to Safari browsers
+    (any version and any device)
+*/
+
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
     @media only screen and (min-width: 901px) {
         .photoAbout {
             height: 180px;
         }
     }
+    @media only screen and (min-width: 501px) and (max-width: 900) {
+        .photoAbout {
+            height: 150px;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .photoAbout {
+            height: 130px;
+        }
+    }
 }
 
+
+/*
+    Define here the CSS styles applied only to the Safari 6 and 7 versions when
+    running them in any device (computers, iPhone, iPad, ...)
+*/
+
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
+    @media only screen and (min-width: 901px) {
+        .photoAbout {
+            height: 180px;
+        }
+    }
+    @media only screen and (min-width: 501px) and (max-width: 900) {
+        .photoAbout {
+            height: 150px;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .photoAbout {
+            height: 130px;
+        }
+    }
+}
+
+
+/*
+    Define here the CSS styles applied only to the Safari 9 version when
+    running in any device
+*/
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+    @media only screen and (min-width: 901px) {
+        .photoAbout {
+            height: 180px;
+        }
+    }
+    @media only screen and (min-width: 501px) and (max-width: 900) {
+        .photoAbout {
+            height: 150px;
+        }
+    }
     @media only screen and (max-width: 500px) {
         .photoAbout {
             height: 130px;
