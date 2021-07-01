@@ -5,11 +5,12 @@
 }
 
 .coding {
-    margin-right: 0px;
+    margin: 0px 15px;
 }
 
 .adobe {
-    margin-right: 50px;
+    margin-right: 25px;
+    margin-top: 0px;
 }
 
 @media all and (min--moz-device-pixel-ratio:0) and (max-width: 379px) {

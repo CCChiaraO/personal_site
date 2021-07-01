@@ -78,14 +78,14 @@
     }
     .coding {
         display: block;
-        margin: auto;
+        margin: 0px 15px 50px;
         padding: 5px 8px;
     }
     .adobe {
         display: block;
-        margin: auto;
+        margin: 0px 25px 21px 100px;
         padding: 5px 8px;
-        margin-top: 21px;
+        margin-top: 0px;
         margin-bottom: 21px;
     }
     .titleSkills {
