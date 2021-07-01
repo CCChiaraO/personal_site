@@ -1,5 +1,5 @@
 /*---Media Querie_Mobile---*/
-
+/*---About and Skills elements that create problems with a 'max-width': 380px => attempt to solution---*/
 @media only screen and (max-width: 380px) {
     .photoAbout {
         width: 140px;
@@ -13,7 +13,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    /*Generali*/
+    /*---General---*/
     h1 {
         font-size: 25px;
     }
@@ -44,7 +44,7 @@
         margin: auto;
         padding: 20px 15px;
     }
-    /*Header*/
+    /*---Header---*/
     #ABOUT,
     #SKILLS,
     #CONTACTME {
@@ -57,13 +57,13 @@
         margin-top: 15px;
         width: 40px;
     }
-    /*Home*/
+    /*---Home---*/
     .diagram {
         width: 80%;
         align-content: center;
         margin: 0% 10%;
     }
-    /*ABOUT*/
+    /*---ABOUT---*/
     #about_me {
         display: flex;
         margin: auto;
@@ -110,7 +110,7 @@
         margin-right: 15px;
         margin-left: 10px;
     }
-    /*Contacts*/
+    /*---Contacts---*/
     .contacts {
         font-size: 18px;
         padding: 20px 15px;
@@ -121,7 +121,7 @@
         padding: 10px 5px 0px;
         margin: auto;
     }
-    /*Footer*/
+    /*---Footer---*/
     .footer {
         font-size: 13px;
         padding: 20px 15px 7px;
