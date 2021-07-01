@@ -1,7 +1,7 @@
-/*Media_Querie_Tablet*/
+/*---Media_Querie_Tablet---*/
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
-    /*Generali*/
+    /*---General---*/
     h1 {
         font-size: 33px;
     }
@@ -32,7 +32,7 @@
         width: 100%;
         margin: auto;
     }
-    /*Header*/
+    /*---Header---*/
     #ABOUT,
     #SKILLS,
     #CONTACTME {
@@ -45,13 +45,13 @@
         margin-top: 15px;
         width: 40px;
     }
-    /*Home*/
+    /*---Home---*/
     .diagram {
         width: 80%;
         align-content: center;
         margin: 0% 10%;
     }
-    /*ABOUT*/
+    /*---ABOUT---*/
     #about_me {
         display: flex;
         margin: auto
@@ -98,7 +98,7 @@
         margin-right: 15px;
         margin-left: 10px;
     }
-    /*Contacts*/
+    /*---Contacts---*/
     .contacts {
         font-size: 18px;
     }
@@ -108,7 +108,7 @@
         padding: 10px 5px 0px;
         margin: auto;
     }
-    /*Footer*/
+    /*---Footer---*/
     .footer {
         font-size: 13px;
     }
