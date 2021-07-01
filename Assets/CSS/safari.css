@@ -1,0 +1,13 @@
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+        .photoAbout {
+            height: 180px;
+        }
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
+    .photoAbout {
+        height: 130px;
+    }
+}
