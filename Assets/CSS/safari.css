@@ -19,7 +19,7 @@
     @media only screen and (max-width: 500px) {
         .photoAbout {
             width: 130px;
-            height: 130px;
+    
         }
     }
 }
@@ -46,7 +46,7 @@
     @media only screen and (max-width: 500px) {
         .photoAbout {
             width: 130px;
-            height: 130px;
+     
         }
     }
 }
