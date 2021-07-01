@@ -1,5 +1,5 @@
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-    @media {
+    @media only screen and (min-width: 901px) {
         .photoAbout {
             height: 180px;
         }
@@ -7,7 +7,9 @@
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    .photoAbout {
-        height: 130px;
+    @media only screen and (max-width: 500px) {
+        .photoAbout {
+            height: 130px;
+        }
     }
 }
