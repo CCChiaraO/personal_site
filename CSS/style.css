@@ -1,0 +1,529 @@
+/*---Generals---*/
+
+body {
+    background-color: #171717;
+    color: #EEB76B;
+    font-family: 'Tajawal', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 27px;
+    font-weight: normal;
+    text-align: left;
+}
+
+h4 {
+    color: #EEB76B;
+    text-align: center;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 100px 5px 20px 5px;
+    margin: 0px 0px;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #ffffff;
+    align-content: center;
+    padding: 0px 15px;
+}
+
+ul,
+li {
+    list-style: none;
+    display: block;
+    width: 35%;
+    padding: 0px 0px 0px 20px;
+}
+
+hr {
+    width: 700px;
+    margin: 30px auto;
+}
+
+.container {
+    border: 0px;
+    padding: 5px;
+    width: 700px;
+    margin: auto;
+    align-content: center;
+}
+
+
+/*---Header---*/
+
+.logo {
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 60px;
+    align-content: center;
+}
+
+#ABOUT,
+#SKILLS,
+#CONTACTME {
+    color: #EEB76B;
+    float: right;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+
+/*---Home---*/
+
+.diagram {
+    width: 90%;
+    align-content: center;
+    margin: 0% 5%;
+    padding-bottom: 35px;
+}
+
+
+/*---About---*/
+
+#about_me {
+    display: flex;
+}
+
+.titleAbout {
+    width: 40px;
+    justify-content: flex-start;
+    margin: 0px;
+}
+
+.photoAbout {
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+    padding: 0px 0px 0px 40px;
+}
+
+#description {
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 0px 0px;
+}
+
+
+/*---Skills---*/
+
+#my_skills {
+    display: flex;
+    height: 180px;
+    justify-content: flex-end;
+}
+
+.titleSkills {
+    width: 40px;
+}
+
+.illustration {
+    width: 160px;
+    padding: 0px 35px 0px 0px;
+}
+
+
+/*---Contacts---*/
+
+.contacts {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#paper_plane {
+    padding: 0px 20px 0px 14px;
+    color: #FFFFFF;
+}
+
+#in {
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+
+#git {
+    color: #FFFFFF;
+}
+
+
+/*---Bottom page---*/
+
+#phil {
+    font-weight: bold;
+}
+
+
+/*---Footer---*/
+
+.footer {
+    padding: 50px 0px 30px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+/*---Media_Querie_Tablet---*/
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    /*---Generals---*/
+    h1 {
+        font-size: 33px;
+    }
+    h2 {
+        font-size: 27px;
+    }
+    h3 {
+        font-size: 27px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    p {
+        padding: 0px 15px;
+    }
+    hr {
+        width: 100%;
+        margin: 20px auto;
+    }
+    ul,
+    li {
+        width: 20%;
+        padding: 0px 30px 0px 0px;
+    }
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    /*---Header---*/
+    #ABOUT,
+    #SKILLS,
+    #CONTACTME {
+        padding: 15px 23px 0px 0px;
+        font-size: 14px;
+    }
+    .logo {
+        padding: 15px 0px 0px 20px;
+        width: 40px;
+    }
+    /*---Home---*/
+    .diagram {
+        width: 80%;
+        align-content: center;
+        margin: 0% 10%;
+    }
+    /*---ABOUT---*/
+    #about_me {
+        display: flex;
+        margin: auto;
+    }
+    .titleAbout {
+        width: 35px;
+        justify-content: flex-start;
+        padding: 0px 7px;
+    }
+    .photoAbout {
+        width: 170px;
+        display: block;
+        padding: 0px 25px;
+    }
+    #description {
+        font-size: 18px;
+    }
+    /*---Skills---*/
+    #my_skills {
+        display: flex;
+        height: 180px;
+        justify-content: flex-end;
+        margin: auto;
+    }
+    .titleSkills {
+        width: 35px;
+        justify-content: flex-end;
+        padding: 0px 7px;
+    }
+    .illustration {
+        width: 160px;
+        padding: 0px 20px 0px 10px;
+    }
+    /*---Contacts---*/
+    .contacts {
+        font-size: 18px;
+    }
+    .contact_me {
+        font-size: 30px;
+        font-weight: normal;
+        padding: 10px 5px 0px;
+        margin: auto;
+    }
+    /*---Footer---*/
+    .footer {
+        font-size: 13px;
+    }
+}
+
+
+/*---Media Querie_Mobile---*/
+
+@media only screen and (min-width: 381px) and (max-width: 600px) {
+    /*---Generals---*/
+    h1 {
+        font-size: 26px;
+        padding-top: 100px;
+    }
+    h2 {
+        font-size: 21px;
+        padding-bottom: 25px;
+    }
+    h3 {
+        font-size: 19px;
+        padding: 8px 8px;
+    }
+    h4 {
+        font-size: 16px;
+        padding: 25px 6px 6px 6px;
+    }
+    h5 {
+        font-size: 15px;
+        padding: 18px 8px;
+    }
+    hr {
+        width: 100%;
+        margin: 0px;
+    }
+    ul,
+    li {
+        padding: 18px 16px;
+        width: 25%;
+        height: 25%;
+        margin: 0px;
+    }
+    .container {
+        width: 100%;
+        margin: 0px 0px;
+    }
+    /*---Header---*/
+    #ABOUT,
+    #SKILLS,
+    #CONTACTME {
+        padding: 8px 3px 0px 0px;
+        font-size: 15px;
+        margin: 15px 3px;
+    }
+    .logo {
+        margin-right: 10px;
+        margin-left: 20px;
+        margin-top: 15px;
+        padding: 8px 8px 0px 5px;
+        width: 40px;
+    }
+    /*---Home---*/
+    .diagram {
+        width: 90%;
+        align-content: center;
+        margin: 0% 5%;
+        padding: 10px;
+    }
+    /*---ABOUT---*/
+    #about_me {
+        display: flex;
+        margin: auto;
+    }
+    .titleAbout {
+        width: 27px;
+        justify-content: flex-start;
+        padding: 0px 2px;
+        margin: 0px 0px 0px 23px;
+    }
+    .photoAbout {
+        width: 140px;
+        height: 140px;
+        padding: 10px 0px 0px 23px;
+    }
+    #description {
+        font-size: 20px;
+        padding: 10px 15px 0px;
+    }
+    /*---Skills---*/
+    #my_skills {
+        display: flex;
+        height: 180px;
+        justify-content: flex-end;
+        margin: auto;
+    }
+    .titleSkills {
+        width: 27px;
+        justify-content: flex-end;
+        padding: 0px 2px;
+    }
+    .illustration {
+        width: 80px;
+        margin: 0px 0px;
+        padding-right: 15px;
+    }
+    /*---Contacts---*/
+    .contacts {
+        font-size: 18px;
+        padding: 20px 15px;
+    }
+    .contact_me {
+        font-size: 30px;
+        font-weight: normal;
+        padding: 10px 5px 0px;
+        margin: auto;
+    }
+    /*---Footer---*/
+    .footer {
+        font-size: 13px;
+        padding: 20px 15px 7px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    /*About and Skills elements that create problems with a (max-width: 380px) => attempt to solution*/
+    /*---Generals---*/
+    h1 {
+        font-size: 20px;
+        padding-top: 80px;
+    }
+    h2 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    h3 {
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+    h4 {
+        font-size: 14px;
+        padding: 20px 5px 5px 5px;
+    }
+    h5 {
+        font-size: 11px;
+        padding: 15px 5px;
+    }
+    hr {
+        width: 100%;
+        margin: 0px 15px;
+    }
+    ul,
+    li {
+        padding: 12px 10px;
+        width: 20%;
+        height: 20%;
+    }
+    .container {
+        width: 100%;
+        margin: 0px 0px;
+    }
+    /*---Header---*/
+    #ABOUT,
+    #SKILLS,
+    #CONTACTME {
+        padding: 8px 3px 0px 0px;
+        font-size: 14px;
+        margin: 15px 3px;
+    }
+    .logo {
+        margin-right: 10px;
+        margin-left: 20px;
+        margin-top: 15px;
+        padding: 8px 8px 0px 5px;
+        width: 40px;
+    }
+    /*---Home---*/
+    .diagram {
+        width: 90%;
+        align-content: center;
+        margin: 0% 5%;
+        padding: 10px;
+    }
+    /*---ABOUT---*/
+    #about_me {
+        display: flex;
+        margin: auto;
+    }
+    .titleAbout {
+        width: 25px;
+        justify-content: flex-start;
+        padding: 0px 2px;
+        margin: 0px 0px 0px 20px;
+    }
+    .photoAbout {
+        width: 130px;
+        height: 130px;
+        padding: 10px 0px 0px 20px;
+    }
+    #description {
+        font-size: 17px;
+        padding: 10px 15px 0px;
+    }
+    /*---Skills---*/
+    #my_skills {
+        display: flex;
+        height: 180px;
+        justify-content: flex-end;
+        margin: auto;
+        padding: 10px;
+    }
+    .titleSkills {
+        width: 25px;
+        justify-content: flex-end;
+        padding: 0px 2px;
+    }
+    .illustration {
+        width: 80px;
+        margin: 0px 0px;
+        padding-right: 15px;
+    }
+    /*---Contacts---*/
+    .contacts {
+        font-size: 18px;
+        padding: 20px 15px;
+    }
+    .contact_me {
+        font-size: 30px;
+        font-weight: normal;
+        padding: 10px 5px 0px;
+        margin: auto;
+    }
+    /*---Footer---*/
+    .footer {
+        font-size: 13px;
+        padding: 20px 15px 7px;
+    }
+}
