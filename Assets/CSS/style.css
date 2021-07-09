@@ -4,6 +4,8 @@ body {
     background-color: #171717;
     color: #EEB76B;
     font-family: 'Tajawal', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1 {
@@ -85,12 +87,11 @@ hr {
     margin-left: 35px;
     margin-top: 20px;
     width: 60px;
-    align-content: center;
 }
 
 #ABOUT,
 #SKILLS,
-#CONTACTME {
+#CONTACT_ME {
     color: #EEB76B;
     float: right;
     margin-right: 35px;
@@ -145,6 +146,8 @@ hr {
 
 .titleSkills {
     width: 40px;
+    justify-content: flex-end;
+    margin: 0px;
 }
 
 .illustration {
@@ -199,22 +202,25 @@ hr {
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     /*---Generals---*/
     h1 {
-        font-size: 33px;
+        font-size: 30px;
     }
     h2 {
-        font-size: 27px;
+        font-size: 26px;
     }
     h3 {
-        font-size: 27px;
+        font-size: 26px;
     }
     h4 {
-        font-size: 20px;
+        font-size: 17px;
+        margin: 0px 20px;
+        padding: 100px 2px 20px 2px;
     }
     h5 {
-        font-size: 18px;
+        font-size: 19px;
     }
     p {
         padding: 0px 15px;
+        margin: 0px 15px;
     }
     hr {
         width: 100%;
@@ -232,9 +238,9 @@ hr {
     /*---Header---*/
     #ABOUT,
     #SKILLS,
-    #CONTACTME {
+    #CONTACT_ME {
         padding: 15px 23px 0px 0px;
-        font-size: 14px;
+        font-size: 15px;
     }
     .logo {
         padding: 15px 0px 0px 20px;
@@ -255,6 +261,7 @@ hr {
         width: 35px;
         justify-content: flex-start;
         padding: 0px 7px;
+        margin-left: 20px;
     }
     .photoAbout {
         width: 170px;
@@ -263,6 +270,7 @@ hr {
     }
     #description {
         font-size: 18px;
+        padding: 0px 7px;
     }
     /*---Skills---*/
     #my_skills {
@@ -275,6 +283,7 @@ hr {
         width: 35px;
         justify-content: flex-end;
         padding: 0px 7px;
+        margin-right: 20px;
     }
     .illustration {
         width: 160px;
@@ -310,7 +319,7 @@ hr {
         padding-bottom: 25px;
     }
     h3 {
-        font-size: 19px;
+        font-size: 20px;
         padding: 8px 8px;
     }
     h4 {
@@ -333,13 +342,17 @@ hr {
         margin: 0px;
     }
     .container {
-        width: 100%;
+        width: 90%;
         margin: 0px 0px;
     }
     /*---Header---*/
+    .header {
+        width: 90%;
+        align-content: center;
+    }
     #ABOUT,
     #SKILLS,
-    #CONTACTME {
+    #CONTACT_ME {
         padding: 8px 3px 0px 0px;
         font-size: 15px;
         margin: 15px 3px;
@@ -362,12 +375,12 @@ hr {
     #about_me {
         display: flex;
         margin: auto;
+        margin: 0px 0px 0px 23px;
     }
     .titleAbout {
         width: 27px;
         justify-content: flex-start;
         padding: 0px 2px;
-        margin: 0px 0px 0px 23px;
     }
     .photoAbout {
         width: 140px;
@@ -384,6 +397,7 @@ hr {
         height: 180px;
         justify-content: flex-end;
         margin: auto;
+        margin: 0px 23px 0px 0px;
     }
     .titleSkills {
         width: 27px;
@@ -392,7 +406,7 @@ hr {
     }
     .illustration {
         width: 80px;
-        margin: 0px 0px;
+        margin: 0px 10px 0px 0px;
         padding-right: 15px;
     }
     /*---Contacts---*/
@@ -433,7 +447,7 @@ hr {
         padding: 20px 5px 5px 5px;
     }
     h5 {
-        font-size: 11px;
+        font-size: 15px;
         padding: 15px 5px;
     }
     hr {
@@ -445,15 +459,19 @@ hr {
         padding: 12px 10px;
         width: 20%;
         height: 20%;
+        margin-right: 12px;
     }
     .container {
-        width: 100%;
+        width: 90%;
         margin: 0px 0px;
     }
     /*---Header---*/
+    .header {
+        width: 90%;
+    }
     #ABOUT,
     #SKILLS,
-    #CONTACTME {
+    #CONTACT_ME {
         padding: 8px 3px 0px 0px;
         font-size: 14px;
         margin: 15px 3px;
@@ -476,6 +494,7 @@ hr {
     #about_me {
         display: flex;
         margin: auto;
+        margin: 0px 23px 0px 0px;
     }
     .titleAbout {
         width: 25px;
@@ -499,11 +518,13 @@ hr {
         justify-content: flex-end;
         margin: auto;
         padding: 10px;
+        margin: 0px 0px 0px 23px;
     }
     .titleSkills {
         width: 25px;
         justify-content: flex-end;
         padding: 0px 2px;
+        margin: 0px 20px 0px 0px;
     }
     .illustration {
         width: 80px;
@@ -525,5 +546,86 @@ hr {
     .footer {
         font-size: 13px;
         padding: 20px 15px 7px;
+    }
+}
+
+
+/*
+    Define here the CSS styles applied only to Safari browsers
+    (any version and any device)
+*/
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (min-width: 901px) {
+    .photoAbout {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (min-width: 501px) and (max-width: 900) {
+    .photoAbout {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (max-width: 500px) {
+    .photoAbout {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+
+/*
+    Define here the CSS styles applied only to the Safari 6 and 7 versions when
+    running them in any device (computers, iPhone, iPad, ...)
+*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) and (min-width: 901px) {
+    .photoAbout {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) and (min-width: 501px) and (max-width: 900) {
+    .photoAbout {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) and (max-width: 500px) {
+    .photoAbout {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+
+/*
+    Define here the CSS styles applied only to the Safari 9 version when
+    running in any device
+*/
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) and (min-width: 901px) {
+    .photoAbout {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) and (min-width: 501px) and (max-width: 900) {
+    .photoAbout {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) and (max-width: 500px) {
+    .photoAbout {
+        width: 130px;
+        height: 130px;
     }
 }
