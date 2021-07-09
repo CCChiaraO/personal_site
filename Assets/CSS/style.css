@@ -556,23 +556,52 @@ hr {
 */
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (min-width: 901px) {
+    p {
+        margin-top: 20px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 180px;
         height: 180px;
     }
+    .titleAbout {
+        width: 40px;
+        justify-content: flex-start;
+        margin: 0px;
+    }
 }
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (min-width: 501px) and (max-width: 900) {
+    p {
+        margin-top: 20px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 150px;
         height: 150px;
     }
+    .titleAbout {
+        width: 35px;
+        justify-content: flex-start;
+        padding: 0px 7px;
+        margin: 0px 0px 0px 20px;
+    }
 }
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) and (max-width: 500px) {
+    p {
+        margin-top: 15px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 130px;
         height: 130px;
+    }
+    .titleAbout {
+        width: 25px;
+        justify-content: flex-start;
+        padding: 0px 2px;
+        margin: 0px 0px 0px 20px;
     }
 }
 
@@ -583,23 +612,52 @@ hr {
 */
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) and (min-width: 901px) {
+    p {
+        margin-top: 20px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 180px;
         height: 180px;
     }
+    .titleAbout {
+        width: 40px;
+        justify-content: flex-start;
+        margin: 0px;
+    }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) and (min-width: 501px) and (max-width: 900) {
+    p {
+        margin-top: 20px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 150px;
         height: 150px;
     }
+    .titleAbout {
+        width: 35px;
+        justify-content: flex-start;
+        padding: 0px 7px;
+        margin: 0px 0px 0px 20px;
+    }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) and (max-width: 500px) {
+    p {
+        margin-top: 15px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 130px;
         height: 130px;
+    }
+    .titleAbout {
+        width: 25px;
+        justify-content: flex-start;
+        padding: 0px 2px;
+        margin: 0px 0px 0px 20px;
     }
 }
 
@@ -610,22 +668,51 @@ hr {
 */
 
 @supports (overflow:-webkit-marquee) and (justify-content:inherit) and (min-width: 901px) {
+    p {
+        margin-top: 20px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 180px;
         height: 180px;
     }
+    .titleAbout {
+        width: 40px;
+        justify-content: flex-start;
+        margin: 0px;
+    }
 }
 
 @supports (overflow:-webkit-marquee) and (justify-content:inherit) and (min-width: 501px) and (max-width: 900) {
+    p {
+        margin-top: 20px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 150px;
         height: 150px;
     }
+    .titleAbout {
+        width: 35px;
+        justify-content: flex-start;
+        padding: 0px 7px;
+        margin: 0px 0px 0px 20px;
+    }
 }
 
 @supports (overflow:-webkit-marquee) and (justify-content:inherit) and (max-width: 500px) {
+    p {
+        margin-top: 15px;
+        padding: 0px;
+    }
     .photoAbout {
         width: 130px;
         height: 130px;
+    }
+    .titleAbout {
+        width: 25px;
+        justify-content: flex-start;
+        padding: 0px 2px;
+        margin: 0px 0px 0px 20px;
     }
 }
